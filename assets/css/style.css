@@ -1,0 +1,11 @@
+.description {
+    overflow: hidden;
+    max-height: 100px; /* Adjust as needed */
+    transition: max-height 0.3s ease; /* Smooth transition */
+  }
+  
+  .read-more {
+    display: block;
+    margin-top: 10px; /* Adjust as needed */
+  }
+  
