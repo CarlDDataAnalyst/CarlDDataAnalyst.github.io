@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Generic - Solid State by HTML5 UP</title>
+		<title>Power BI Interactive Dashboard</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -19,33 +19,32 @@
 
 				<!-- Header -->
 					<header id="header">
-						<h1><a href="index.html">Solid State</a></h1>
+						<h1><a href="index.html">Carl Portfolio</a></h1>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
 					</header>
 
 				<!-- Menu -->
-					<nav id="menu">
-						<div class="inner">
-							<h2>Menu</h2>
-							<ul class="links">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="generic.html">Generic</a></li>
-								<li><a href="elements.html">Elements</a></li>
-								<li><a href="#">Log In</a></li>
-								<li><a href="#">Sign Up</a></li>
-							</ul>
-							<a href="#" class="close">Close</a>
-						</div>
-					</nav>
+				<nav id="menu">
+					<div class="inner">
+						<h2>Menu</h2>
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="index.html#one" class="scrolly">Projects</a></li>
+							<li><a href="index.html#six" class="scrolly">Certifications</a></li>
+							<li><a href="#footer" class="scrolly">Contact me</a></li>
+						</ul>
+						<a href="#" class="close">Close</a>
+					</div>
+				</nav>
 
 				<!-- Wrapper -->
 					<section id="wrapper">
 						<header>
 							<div class="inner">
-								<h2>Generic</h2>
-								<p>Phasellus non pulvinar erat. Fusce tincidunt nisl eget ipsum.</p>
+								<h2>Power BI Interactive Dashboard: Data Professional Survey Breakdown</h2>
+								<p>This project delves into interactive Power BI dashboards and Transforming the Data Using Power Query. I mastered data prep, crafting insightful visualizations. This gave me an experience to create clear and engaging dashboards for complex data.</p>
 							</div>
 						</header>
 
@@ -53,26 +52,57 @@
 							<div class="wrapper">
 								<div class="inner">
 
-									<h3 class="major">Lorem ipsum dolor</h3>
-									<p>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien.</p>
+									<h3 class="major">About the project</h3>
+									<p>Power BI/Power Query Projects is created with real data collected from a survey of data professionals. The project involves data transformation, visualization creation, and dashboard finalization.</p>
 
-									<p>Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. Proin nec commodo, vel scelerisque nisi scelerisque. Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec felis elementum varius.</p>
+									<p> Data transformation using Power Query, including splitting columns and cleaning data. </p>
+									<p> Removing the columns without data, standardizing every column. I also change some of the data types. 
+									 For example, we want add beside "Current Yearly Salary" column called "Average Salary". 
+									 The raw data type of "Current Yearly Salary" column is text. Changing it to Decimal number makes the PowerBI accept it as a number and enabling to visualize the data.</p>
+									
+									 <div class="image-container">
 
-									<h3 class="major">Vitae phasellus</h3>
-									<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+										<class="image"><img src="images/Power-bi-data-type.png" alt="" /></a>
+									</div>
+									<div class="image-container">
+
+									
+									<h3 class="major">Dashboard Summary: Data Professional Survey Breakdown</h3>
+									<class="image"><img src="images/Data Professional Survey Breakdown.png" alt="" /></a>
+								</div>
+									<p>This dashboard presents a comprehensive overview of survey results from data professionals, highlighting key metrics and insights. Below is a summary of its contents and the various charts included:</p>
+								
+									<ul>
+										<li><strong>Survey Takers' Country:</strong> A treemap visualizing the distribution of survey respondents by country. Prominent countries include the United States, India, Canada, and the United Kingdom, with 'Other' countries grouped together.</li>
+										<li><strong>Average Salary by Job Title:</strong> A horizontal bar chart displaying the average salary for various job titles within the data profession. Job titles include Data Scientist, Data Engineer, Data Architect, Data Analyst, Database Developer, and Student/Looking/Not Working.</li>
+										<li><strong>Count and Average Age of Survey Takers:</strong> Two large numbers indicating:
+											<ul>
+												<li>Total count of survey respondents: 630</li>
+												<li>Average age of survey respondents: 29.87 years</li>
+											</ul>
+										</li>
+										<li><strong>Happy with Work/Life Balance:</strong> A semicircular gauge chart showing the average rating for work/life balance satisfaction (5.74 out of 10).</li>
+										<li><strong>Happy with Salary:</strong> A semicircular gauge chart illustrating the average rating for salary satisfaction (4.27 out of 10).</li>
+										<li><strong>Favorite Programming Languages:</strong> A bar chart indicating the count of votes for favorite programming languages among survey respondents. Includes languages such as Python, R, SQL, Java, C++, and others.</li>
+										<li><strong>Average Salary by Gender:</strong> A donut chart representing the average salary distribution by gender. Shows the percentage and actual salary for female and male respondents.</li>
+									</ul>
+									
+									
+									<h3 class="major">Check the repository</h3>
+									<p>This contains the project database and the Power BI file. <a href="https://github.com/CarlDDataAnalyst/PorfolioProjects/blob/main/Power%20BI%20-%20Final%20Project.xlsx">Click here</a></p>
 
 									<section class="features">
 										<article>
-											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3 class="major">Sed feugiat lorem</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
+											<a href="https://github.com/CarlDDataAnalyst/PorfolioProjects/blob/main/Excel%20Project%20Dataset.xlsx" class="image"><img src="images/Microsoft-Excel-Logo.jpg" alt="" /></a>
+											<h2 class="major">Interactive Excel Dashboards: Built for Exploration</h2>
+											<p>This project delves into interactive Excel dashboards. I mastered data prep, crafting insightful visualizations (like Map chart and Line chart). This empowers me to create clear and engaging dashboards for complex data.</p>
+										<a href="https://github.com/CarlDDataAnalyst/PorfolioProjects/blob/main/Excel%20Project%20Dataset.xlsx" class="special">Learn more</a>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-											<h3 class="major">Nisl placerat</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
+											<a href="https://github.com/CarlDDataAnalyst/PorfolioProjects/blob/main/Covid%20Portfolio%20Project.sql" class="image"><img src="images/Covid-19 VIrus map.jpg" alt="" /></a>
+											<h2 class="major">Tableau Projects</h2>
+											<p>The COVID-19 project involves analyzing and visualizing data related to the pandemic's global impact. Using Tableau, we track key metrics such as total cases, vaccination rates, and death tolls compared to population sizes. </p>
+											<a href="https://public.tableau.com/app/profile/carl.soriano/vizzes" class="special">Learn more</a>
 										</article>
 									</section>
 
@@ -81,47 +111,22 @@
 
 					</section>
 
-				<!-- Footer -->
+					<!-- Footer -->
 					<section id="footer">
 						<div class="inner">
 							<h2 class="major">Get in touch</h2>
-							<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="email" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
+							<p>Feel free to reach out to me through any of the following channels:</p>
 							<ul class="contact">
-								<li class="icon solid fa-home">
-									Untitled Inc<br />
-									1234 Somewhere Road Suite #2894<br />
-									Nashville, TN 00000-0000
-								</li>
-								<li class="icon solid fa-phone">(000) 000-0000</li>
-								<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
-								<li class="icon brands fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>
-								<li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled-tld</a></li>
-								<li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
-							</ul>
-							<ul class="copyright">
-								<li>&copy; Untitled Inc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li class="icon solid fa-home">Laguna, Philippines</li>
+								<li class="icon solid fa-phone">+63 099 2722 7963</li>
+								<li class="icon solid fa-envelope"><a href="mailto:csoriano.ccc@gmail.com">csoriano.ccc@gmail.com</a></li>
+								<li class="icon brands fa-github"><a href="https://github.com/CarlDDataAnalyst/PorfolioProjects">GitHub Portfolio</a></li>
+								<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/clarenz-carl-soriano/">LinkedIn Profile</a></li>
+								<li class="icon brands fa-upwork"><a href="https://www.upwork.com/freelancers/~0162a651b66489e871?mp_source=share">Upwork Profile</a></li>
 							</ul>
 						</div>
 					</section>
+					
 
 			</div>
 
